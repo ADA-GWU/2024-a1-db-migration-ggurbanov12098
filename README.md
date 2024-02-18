@@ -5,7 +5,7 @@ These instructions will guide you through the process of migrating your PostgreS
 - Ensure that you have PostgreSQL installed and running.
 - Make sure you have necessary permissions to create and modify tables in your database.
 - Python package psycopg2. To install use: [pip install psycopg2](https://pypi.org/project/psycopg2/)
-- ... or install package with the help of Anaconda Navigator ![anaconda package](image.png)
+- ... or install package with the help of [Anaconda Navigator](https://docs.anaconda.com/free/navigator/install/) ![anaconda package](image.png)
 
 ## Step 1: Initialization
 First, let's initialize the database tables and populate them with sample data.
@@ -19,7 +19,7 @@ First, let's initialize the database tables and populate them with sample data.
 ### Using SQL Script
 1. Open your preferred terminal or command prompt.
 2. Log in to your PostgreSQL database using psql or any other client.
-3. Run the SQL script initTable.sql using the command \i 'path/to/initTable.sql'.
+3. Run the SQL script initTable.sql using the command \i **'path/to/initTable.sql'**.
 4. Verify that the tables students and interests are created and populated with sample data.
 
 
@@ -36,7 +36,7 @@ Now, let's perform the database migration according to the provided specificatio
 ### Using SQL Script
 1. Open your preferred terminal or command prompt.
 2. Log in to your PostgreSQL database using psql or any other client.
-3. Run the SQL script migration.sql using the command \i 'path/to/migration.sql'.
+3. Run the SQL script migration.sql using the command **\i 'path/to/migration.sql'**.
 4. Verify that the migration is successful by checking the changes in the database schema and data.
 
 
@@ -52,7 +52,7 @@ If you need to revert the changes made during the migration, you can perform a r
 ### Using SQL Script
 1. Open your preferred terminal or command prompt.
 2. Log in to your PostgreSQL database using psql or any other client.
-3. Run the SQL script rollback.sql using the command \i 'path/to/rollback.sql'.
+3. Run the SQL script rollback.sql using the command **\i 'path/to/rollback.sql'**.
 4. Verify that the rollback is successful by checking that the database schema and data are reverted to their initial state.
 
 ### Additional Notes
