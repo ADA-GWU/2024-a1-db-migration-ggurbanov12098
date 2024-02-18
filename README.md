@@ -4,8 +4,8 @@ These instructions will guide you through the process of migrating your PostgreS
 ## Prerequisites
 - Ensure that you have PostgreSQL installed and running.
 - Make sure you have necessary permissions to create and modify tables in your database.
-- Python package psycopg2. To install use: pip install psycopg2 
-... or install package with the help of Anaconda Navigator ![anaconda package](image.png)
+- Python package psycopg2. To install use: [pip install psycopg2](https://pypi.org/project/psycopg2/)
+- ... or install package with the help of Anaconda Navigator ![anaconda package](image.png)
 
 ## Step 1: Initialization
 First, let's initialize the database tables and populate them with sample data.
